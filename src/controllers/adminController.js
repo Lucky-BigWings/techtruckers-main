@@ -314,5 +314,9 @@ const login = async (req, res) => {
     };
 };
 
+// ============================= Forgot Password ==============================
+
+
+
 
 module.exports = { verifyEmail, newAdmin, generateOTP, verifyOTP, login };
